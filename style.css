@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0.5rem;
+    text-align: center;
+
+}
+nav{
+    border: 2px solid burlywood;
+    border-radius: 5px;
+    margin: 0 auto 1rem;
+    max-width: 600px;
+    font-size: 3rem;
+    line-height: 7rem;
+
+}
+h2{
+    background-color: gold;
+    padding: 5px;
+    border-radius: 2px 2px 0 0;
+}
+li a,
+li a:visited{
+ text-decoration: none;
+ color: rgb(86, 57, 14);
+}
+li a:focus,
+li a:hover{
+    background: darkgoldenrod;
+    color: darkred;
+    cursor: pointer;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    border-top: 1px solid blue;
+}
+li a{
+    display: block;
+}
